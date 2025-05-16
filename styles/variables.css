@@ -10,13 +10,10 @@
   --background-color-element: #fff;
   --container-size: clamp(375px, 50%, 700px);
   --element-border: 2px solid #000;
-
   --heart-contour-color: #000;
   --heart-sparks-color: #FF0000;
-
   --heart-liked-color: #FF0000; 
   --heart-default-color: #000; 
-
   --background-gradient: 
   repeating-linear-gradient(
       90deg, 
@@ -28,5 +25,3 @@
       transparent 2px 4px),
     linear-gradient(#e7e7e7, #1a1a1a);
 }
- 
- 

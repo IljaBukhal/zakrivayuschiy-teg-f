@@ -14,7 +14,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--main-font, 'Inter'), sans-serif;
-  font-variation-settings: "wgt" var(--card-text-weight, 400);
+  font-variation-settings: "wght" var(--card-text-weight, 400);
   font-weight: var(--card-text-weight, 400);
   color: var(--text-color, #000);
   background-color: var(--background-color, #fff);
@@ -221,7 +221,7 @@
   outline: none;
 }
 
-.card__icon-button:focus-visible .like-icon{
+.card__icon-button:focus-visible .like-icon {
   outline-offset: -1px;
   outline: 2px solid var(--accent-color, #000);
 }
@@ -294,7 +294,7 @@ body:has(.dialog[open]) {
   background-color: var(--background-color-element, #fff);
 }
 
-.footer__button-icon{
+.footer__button-icon {
   fill: #fff;
   position: relative;
   z-index: 10;
