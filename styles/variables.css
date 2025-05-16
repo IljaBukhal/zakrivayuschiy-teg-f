@@ -12,8 +12,8 @@
   --element-border: 2px solid #000;
   --heart-contour-color: #000;
   --heart-sparks-color: #FF0000;
-  --heart-liked-color: #FF0000; 
-  --heart-default-color: #000; 
+  --heart-liked-color: #FF0000;
+  --heart-default-color: #000;
   --background-gradient: 
   repeating-linear-gradient(
       90deg, 
