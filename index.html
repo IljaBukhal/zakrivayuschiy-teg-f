@@ -236,18 +236,6 @@
       </ul>
     </main>
     <footer class="footer container">
-      <dialog id="dialog" class="dialog">
-        <svg class="dialog-icon" viewBox="0 0 39 39">
-          <use class="" href="./svg/floppy.svg#floppy"></use>
-        </svg>
-        <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
-        <button class="dialog__button button"
-          type="button"
-          onclick="window['dialog'].close()"
-          aria-controls="dialog"
-          >
-        <span class="button__text">Ок</span></button>
-      </dialog>
       <button class="footer__button button" 
         type="button"
         onclick="window['dialog'].showModal()"
@@ -259,6 +247,18 @@
         <span class="button__text">Cохранить на память</span>
       </button>
     </footer>
+    <dialog id="dialog" class="dialog">
+      <svg class="dialog-icon" viewBox="0 0 39 39">
+        <use class="" href="./svg/floppy.svg#floppy"></use>
+      </svg>
+      <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
+      <button class="dialog__button button"
+        type="button"
+        onclick="window['dialog'].close()"
+        aria-controls="dialog"
+        >
+      <span class="button__text">Ок</span></button>
+    </dialog>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
