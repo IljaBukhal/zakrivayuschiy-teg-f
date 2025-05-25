@@ -62,7 +62,7 @@
 .cards-list {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 52px;
   margin-block-end: 49px;
 }
 
@@ -79,11 +79,19 @@
   font-weight: var(--card-title-weight, 700);
   font-size: 18px;
   border-inline: var(--element-border, 2px solid #000);
+  border-block-end: var(--element-border, 2px solid #000);
 }
 
 .image-wrapper {
   position: relative;
   margin: 0;
+  margin-block-start: -2px;
+}
+
+.image-wrapper + 
+.card__text {
+  margin-block-start: -2px;
+  border-block-start: var(--element-border, 2px solid #000);
 }
 
 .card__image {
@@ -165,7 +173,7 @@
   gap: 7px;
   padding-inline-end: 25px;
   padding-block-start: 22px;
-  padding-block-end: 25px;
+  padding-block-end: 24px;
   border-inline: var(--element-border, 2px solid #000);
 }
 
